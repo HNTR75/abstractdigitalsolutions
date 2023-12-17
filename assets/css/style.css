@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --primary: #6e30f5;
+    --purple-dark: #4525b6;
+    --white: #ffffff;
+    --black: #121212;
+    --black-alt: #1E1E1E;
+    --blue-dark: #0c0c4a;
+    --green: #01e3b5;
+    --blue-light: #3f67c1;
+    --gray-1: #788190;
+    --gray-2: #d3d4db;
+    --body: #f1f1f1;
+    --light-green: #0de4d7;
+    --light-blue: #f4f9fd;
+
+}
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 75px;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  
+  h4 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  h5 {
+    font-size: 22.5px;
+    font-weight: 400;
+  }
+
+  h6 {
+    font-size: 17.5px;
+    font-weight: 400;
+    color
+  }
+
+
+  p {
+    font-size: 17.5px;
+    font-weight: 400;
+  }
+
+  strong{
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .rounded-20 {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .rounded-30 {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/*Navbar*/
+nav {
+  background-color: var(--white);
+}
+
+.navbar-toggler {
+  box-shadow: var(--gray-2);
+  background-color: var(--light-blue);
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+}
+
+
+.btn{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-primary,
+.btn-outline-secondary{
+    padding: 30px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border: var(--primary);
+}
+
+.main-btn a {
+  background-color: var(--white);
+  color: var(--primary);
+  border: var(--white);
+  padding: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: ease 0.8s;
+  -webkit-transition: ease 0.8s;
+  -moz-transition: ease 0.8s;
+  -ms-transition: ease 0.8s;
+  -o-transition: ease 0.8s;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.main-btn a:hover {
+  background-color: var(--green);
+  color: var(--blue-dark); /* Change text color to white on hover */
+}
+
+.alt-btn a {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: ease 0.8s;
+  -webkit-transition: ease 0.8s;
+  -moz-transition: ease 0.8s;
+  -ms-transition: ease 0.8s;
+  -o-transition: ease 0.8s;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.alt-btn a:hover {
+  background-color: var(--green);
+  color: var(--blue-dark); /* Change text color to white on hover */
+}
+
+
+.btn-primary:hover {
+    background-color: var(--blue-dark);
+    transition: ease 0.8s;
+    -webkit-transition: ease 0.8s;
+    -moz-transition: ease 0.8s;
+    -ms-transition: ease 0.8s;
+    -o-transition: ease 0.8s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+    transition: ease 0.8s;
+}
+
+.btn-outline-secondary:focus {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+.navbar {
+    padding: 32px 0;
+}
+
+.nav-link {
+    margin-left: 20px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 500;
+    color: #6e30f5;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--blue-dark)
+}
+
+.hero {
+  background: linear-gradient(45deg, rgba(110, 48, 245, 0.7), rgba(37, 34, 186, 0.7)), url('../img/hero.png');
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project-hero img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.partners {
+
+}
+
+.partners img:hover {
+  color: #6e30f5;
+}
+
+.testimonial .card{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(109, 48, 245, 0.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.testimonial{
+  background: linear-gradient(270deg, #4525b6, #01e3b5);
+}
+
+.testimonial img {
+  width: 70px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.rounded-circle{
+  background-color: var(--primary);
+}
+  
+span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: var(--primary);
+  }
+
+  section.cta .lc-block.card {
+    border-radius: 20px;
+}
+
+.contact i{
+  font-size: 20px;
+}
+
+.values {
+  background-color: var(--blue-dark);
+}
+
+.values h3,
+.values h4,
+.values p {
+  color: var(--white);
+}
+
+.values .btn-primary {
+  padding: 20px;
+  width: 60px;
+}
+
+.stats .row{
+  background-color: #6e30f5;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.stats .fw-bold {
+  color: var(--white);
+}
+/*Contact*/
+
+.contact-hero { /* Set background color to blue-light */
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--blue-dark); /* Set text color to blue-dark */
+}
+
+.contact-hero img{
+  height: 50%;
+}
+
+.contact-hero h2,
+.contact-hero h5 {
+  color: var(--blue-dark); /* Inherit text color from parent (.contact-hero) */
+}
+
+.contact .border{
+  box-shadow: 0px 0px 15px rgba(109, 48, 245, 0.2);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contact form input {
+  padding: 20px;
+  border-radius: 20px ;
+  -webkit-border-radius: 20px ;
+  -moz-border-radius: 20px ;
+  -ms-border-radius: 20px ;
+  -o-border-radius: 20px ;
+}
+
+.contact form textarea {
+  padding: 20px;
+  border-radius: 20px ;
+  -webkit-border-radius: 20px ;
+  -moz-border-radius: 20px ;
+  -ms-border-radius: 20px ;
+  -o-border-radius: 20px ;
+}
+
+.contact form button {
+  padding: 20px;
+  border-radius: 20px ;
+  -webkit-border-radius: 20px ;
+  -moz-border-radius: 20px ;
+  -ms-border-radius: 20px ;
+  -o-border-radius: 20px ;
+}
+
+.contact .card{
+  padding: 50px;
+  background-color: var(--blue-dark);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contact .card h4{
+  color: var(--white);
+}
+
+.contact .card p{
+  color: var(--blue-light);
+}
+
+.contact .card a{
+  color: var(--green);
+}
+
+.faq img {
+  height: 40%;
+}
+
+/* Add border-radius to accordion items */
+.accordion-item {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Add border-radius to the accordion collapse content */
+.accordion-collapse {
+  border-radius: 20px;
+}
+
+/* Add border-radius to the accordion buttons for smoother corners */
+.accordion-button {
+  border-radius: 20px;
+}
+
+
+/*About*/
+.about {
+  background-color: var(--black-alt);
+}
+.about i {
+  color: var(--primary);
+}
+
+.about-us i {
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.about-us h5 {
+  color: var(--green);
+}
+
+
+.about .btn {
+  color: var(--primary);
+}
+
+.about a {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: ease 0.8s;
+  -webkit-transition: ease 0.8s;
+  -moz-transition: ease 0.8s;
+  -ms-transition: ease 0.8s;
+  -o-transition: ease 0.8s;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.about a:hover{
+  color: var(--green)
+}
+
+.team  {
+  background-color: var(--blue-dark);
+}
+
+.team h5{
+  font-weight: 500;
+}
+
+.team h5:hover{
+  color: var(--primary);
+
+}
+
+.team p{
+  font-weight: 500;
+  color: var(--blue-light);
+}
+
+
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-footer {
+  border-radius: 20px;
+}
+
+
+
+body > section.about.py-3.py-md-5.py-xl-8 > div > div > div:nth-child(1) > img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+
+.cta-card{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/*Services*/
+
+.services-hero {
+  height: 600px;
+  background: linear-gradient(45deg, rgba(110, 48, 245, 0.7), rgba(37, 34, 186, 0.7)), url('../img/hero.png');
+  background-size: cover;
+  width: 100%;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#software-development {
+  background-color: var(--light-blue);
+}
+
+.service-section {
+  background-color: var(--black-alt);
+}
+
+.services .card {
+  border: none;
+}
+
+.services .card-body {
+  /* Default styles */
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(109, 48, 245, 0.2);
+
+  /* Default color for text */
+  color: #000; /* Adjust the default text color as needed */
+
+  /* Hover effect */
+  &:hover {
+    border-radius: 20px;
+    background: linear-gradient(270deg, #96b7f7, #6e30f5);
+    border-color: var(--green);
+    color: #fff; /* Text color on hover */
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Apply hover effect to p and a tags */
+  &:hover p,
+  &:hover a {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+
+  /* Adjust icon margin for spacing */
+  .card-body i {
+    font-size: 30px;
+    color: var(--green);
+  }
+
+  .card-body a{
+    color: var(--black-alt);
+  }
+
+  .card-body p {
+    color: var(--gray-1);
+  }
+
+/*Footer*/
+
+footer {
+  background-color: var(--purple-dark);
+}
+
+footer h4 {
+  color: var(--white);
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--green);
+}
+
+.copyright {
+  color: var(--white);
+}
+
+ul.social-links {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+ul.social-links li a i {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.social-links li {
+  margin: 0 8px;
+}
+
+ul.social-links li a {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: var(--white);
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+ul.social-links li a:hover i {
+  color: var(--green);
+  /* Change the color of the `<i>` element on hover */
+}
+
+@media (max-width: 768px) {
+  ul.social-links {
+      justify-content: center;
+      /* Center the social links */
+  }
+
+  ul.social-links li {
+      margin: 10px ;
+      /* Adjust the margin for better spacing */
+  }
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0; /* Adjust the top left, top right, bottom right, and bottom left values accordingly */
+}
+
+.card-image:hover img {
+  transform: scale(1.2);
+  border-radius: 0 0 0 0; /* Set to 0 for all corners when hovered to remove rounded corners during zoom */
+  transition: transform 0.6s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+.card-image img {
+  transition: transform 0.6s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+/*Portfolio*/
+
+.detail img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.details .card {
+  background-color: var(--purple-dark);
+  color: var(--white);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.details .card li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.details .service-type a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.details .service-type a:hover {
+  color: var(--green)
+}
+
+.detail .img-hover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.detail .img-hover img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.6s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+.detail .img-hover:hover img {
+  transform: scale(1.2);
+  border-radius: 20px;
+}
+
+.our-process span {
+  width: 80px;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  /* Apply hover effect for touch devices */
+  .detail .img-hover:hover img {
+    transform: scale(1.2);
+    border-radius: 20px;
+  }
+}
+
+
+
+
+
+
+.portfolio button {
+  width: 200px;
+}
+
+.portfolio .card-body {
+  border-radius: 0 0 20px 20px;
+}
+
+.portfolio h5{
+  font-weight: 500;
+}
+
+.portfolio h5:hover{
+  color: var(--primary);
+
+}
+
+.portfolio p{
+  font-weight: 500;
+}
+
+/*Clients*/
+.client-card {
+  border-radius: 20px;
+}
+
+.clients {
+  background-color: var(--black-alt);
+}
