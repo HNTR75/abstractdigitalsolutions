@@ -72,3 +72,40 @@ function VanillaCounter(targetElement) {
 document.addEventListener('DOMContentLoaded', function () {
     initializeCounterRANDOMID();
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinkEls = document.querySelectorAll('.nav-link');
+    const windowPathname = window.location.pathname;
+
+    navLinkEls.forEach(navLinkEl => {
+        const navLinkPathname = new URL(navLinkEl.href).pathname;
+
+        // Add condition for the "About Us" page
+        if (
+            (windowPathname === navLinkPathname) || 
+            (windowPathname === '/index.html' && navLinkPathname === '/')
+        ) {
+            navLinkEl.classList.add('active');
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Select elements with data-aos attribute
+    const elementsWithDataAos = document.querySelectorAll('[data-aos]');
+
+    // Add data-aos-duration attribute with a value of 1000 to each element
+    elementsWithDataAos.forEach(element => {
+        element.setAttribute('data-aos-duration', '1000');
+    });
+});
+
+const navEl = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 200) {
+        navEl.classList.add('navbar-scrolled');
+    } else {
+        navEl.classList.remove('navbar-scrolled');
+    }
+});
