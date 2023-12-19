@@ -424,9 +424,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     background-color: var(--primary);
   }
 
-  section.cta .lc-block.card {
-    border-radius: 20px;
-}
 
 .cta {
   background-image:url('assets/img/hero.png');
