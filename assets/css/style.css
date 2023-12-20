@@ -320,14 +320,6 @@ nav {
   color: var(--blue-dark);
 }
 
-.project-hero img {
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
 .partners {
   background-color: var(--blue-dark);
 }
@@ -567,13 +559,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 .contact-hero { /* Set background color to blue-light */
   background-size: cover;
   width: 100%;
-  height: 80%;
   background-position: top center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(60deg, #01e3b5, var(--purple-dark)); /* Set text color to blue-dark */
+  background: linear-gradient(45deg, var(--green), var(--purple-dark)); /* Set text color to blue-dark */
 }
 
 
@@ -684,6 +675,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   align-items: flex-start;
 }
 
+.about-hero img {
+  width: 82.5%;
+}
+
 .about {
   background-color: var(--black-alt);
 }
@@ -741,11 +736,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   font-weight: 500;
 }
 
-.team h5:hover{
-  color: var(--primary);
-
-}
-
 .team p{
   font-weight: 500;
   color: var(--green);
@@ -801,10 +791,6 @@ body > section.about.py-3.py-md-5.py-xl-8 > div > div > div:nth-child(1) > img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-}
-
-.services-hero img{
-  width: 90%;
 }
 
 
@@ -1019,7 +1005,7 @@ footer .nav li a:hover i {
 /*Portfolio*/
 
 .portfolio-hero {
-  background: linear-gradient(45deg, var(--purple-dark), var(--primary));
+  background: linear-gradient(45deg, var(--purple-dark), var(--blue));
   background-size: cover;
   width: 100%;
   background-position: top center;
