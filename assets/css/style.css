@@ -92,10 +92,6 @@ h1 {
 
 /*Navbar*/
 
-nav {
-  height: 70%;
-}
-
 .navbar {
   background-color: transparent;
   transition: background-color 0.3s ease-in-out;
@@ -320,21 +316,17 @@ nav {
   color: var(--blue-dark);
 }
 
-.partners {
-  background-color: var(--blue-dark);
-}
-
-.partners img:hover {
-  color: #6e30f5;
+.partners h6 {
+  color: var(--blue-dark);
 }
 
 .promotions {
-  background-color: #01e3b5;
+  background: linear-gradient(45deg, var(--primary), var(--purple-dark));
 }
 
 .promotions h6,
 .promotions h3 {
-  color: var(--blue-dark);
+  color: var(--white);
 }
 
 .portfolio h3,
@@ -345,7 +337,8 @@ nav {
 .detail h3,
 .brand-identity h3,
 .logo-section h3,
-.typography-section h3 {
+.typography-section h3,
+.our-process h3 {
   color: var(--blue-dark);
 }
 
@@ -356,7 +349,8 @@ nav {
 .project-hero h6,
 .detail h6,
 .logo-section h6,
-.typography-section h6{
+.typography-section h6,
+.our-process h6{
   color: var(--green);
 }
 
@@ -520,7 +514,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   background-color: var(--blue-dark);
 }
 
-.values span{
+.values span,
+.our-process   span{
   padding: 30px;
   font-weight: 700;
 }
@@ -564,7 +559,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(45deg, var(--green), var(--purple-dark)); /* Set text color to blue-dark */
+  background: linear-gradient(45deg, var(--blue-dark), var(--primary)); /* Set text color to blue-dark */
 }
 
 
@@ -624,22 +619,19 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 }
 
 .contact .card a{
-  color: var(--green);
+  color: var(--white);
 }
 
-.contact .card a:hover{
-  color: var(--white);
+.contact .card a:hover,
+.contact .card .social-icons i:hover{
+  color: var(--primary);
 }
 
 .contact .card .social-icons i{
-  font-size: 40px;
-  color: var(--green);
-}
-
-.contact .card .social-icons i:hover{
-
+  font-size: 30px;
   color: var(--white);
 }
+
 
 .faq img {
   height: 40%;
@@ -783,7 +775,7 @@ body > section.about.py-3.py-md-5.py-xl-8 > div > div > div:nth-child(1) > img {
 }
 
 .services-hero {
-  background: linear-gradient(45deg, var(--blue-dark), var(--green));
+  background: linear-gradient(45deg, var(--blue-dark), var(--primary));
   background-size: cover;
   width: 100%;
   background-position: top center;
@@ -795,7 +787,7 @@ body > section.about.py-3.py-md-5.py-xl-8 > div > div > div:nth-child(1) > img {
 
 
 .service-detail-hero {
-  background: linear-gradient(60deg, var(--blue-light), var(--green));
+  background: linear-gradient(45deg, var(--blue-dark), var(--primary));
 }
 
 .service-detail-hero img{
@@ -880,6 +872,10 @@ footer {
   background-color: var(--blue-dark);
 }
 
+.footer-bottom {
+  background-color: var(--purple-dark);
+}
+
 
 footer h5 {
   color: var(--white);
@@ -887,7 +883,7 @@ footer h5 {
 }
 
 footer li {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 
@@ -1005,7 +1001,7 @@ footer .nav li a:hover i {
 /*Portfolio*/
 
 .portfolio-hero {
-  background: linear-gradient(45deg, var(--purple-dark), var(--blue));
+  background: linear-gradient(45deg, var(--blue-dark), var(--primary));
   background-size: cover;
   width: 100%;
   background-position: top center;

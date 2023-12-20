@@ -1,0 +1,18 @@
+    <div class="stats" data-aos="fade-down">
+    <div class="container py-5">
+      <div class="row text-center py-4 g-4 counter-RANDOMID p-5">
+          <div class="col-6 col-lg-3"><span class="fw-bold display-5 mb-5" data-vanilla-counter="" data-start-at="0" data-end-at="125" data-time="1000" data-delay="60" data-format="{}"> </span>
+              <p class="lead" editable="inline"><span><b>Projects</b></span> Done</p>
+          </div>
+          <div class="col-6 col-lg-3"> <span class="fw-bold display-5 mb-5" data-vanilla-counter="" data-start-at="0" data-end-at="53" data-time="1000" data-delay="60" data-format="{}"> </span>
+              <p class="lead" editable="inline"><b>Customers</b> Satisfied</p>
+          </div>
+          <div class="col-6 col-lg-3"> <span class="fw-bold display-5 mb-5" data-vanilla-counter="" data-start-at="0" data-end-at="250" data-time="1000" data-delay="60" data-format="{}"> </span>
+              <p class="lead" editable="inline"><b>Employees</b> in the World</p>
+          </div>
+          <div class="col-6 col-lg-3"> <span class="fw-bold display-5 mb-5" data-vanilla-counter="" data-start-at="4800" data-end-at="5000" data-time="1000" data-delay="0" data-format="{}"> </span>
+              <p class="lead" editable="inline"><b>Branches</b> In EU</p>
+          </div>
+      </div>
+  </div>
+  </div>
