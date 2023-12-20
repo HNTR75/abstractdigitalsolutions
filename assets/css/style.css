@@ -6,6 +6,7 @@
     --white: #ffffff;
     --black: #121212;
     --black-alt: #1E1E1E;
+    --blue: #1050ED;
     --blue-dark: #0c0c4a;
     --green: #01e3b5;
     --blue-light: #3f67c1;
@@ -319,10 +320,6 @@ nav {
   color: var(--blue-dark);
 }
 
-.project-hero {
-  background: linear-gradient(45deg, var(--blue-dark), var(--primary));
-}
-
 .project-hero img {
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -407,7 +404,7 @@ nav {
 }
 
 .testimonial-single {
-  background: linear-gradient(45deg, var(--green),var(--blue-dark));
+  background: linear-gradient(45deg, var(--green),var(--blue));
 }
 
 .testimonial-single img{
@@ -907,9 +904,6 @@ footer li {
   font-size: 20px;
 }
 
-footer p {
-  color: var(--white);
-}
 
 footer a {
   color: var(--white);
