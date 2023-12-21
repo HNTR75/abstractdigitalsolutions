@@ -284,32 +284,32 @@ img {
 
 @media (max-width: 426px) {
   .hero img {
-    transform: translateY(6%);
-    -webkit-transform: translateY(6%);
-    -moz-transform: translateY(6%);
-    -ms-transform: translateY(6%);
-    -o-transform: translateY(6%);
+    transform: translateY(4%);
+    -webkit-transform: translateY(4%);
+    -moz-transform: translateY(4%);
+    -ms-transform: translateY(4%);
+    -o-transform: translateY(4%);
 }
 }
 
 @media (max-width: 376px) {
   .hero img {
-    transform: translateY(7%);
-    -webkit-transform: translateY(7%);
-    -moz-transform: translateY(7%);
-    -ms-transform: translateY(7%);
-    -o-transform: translateY(7%);
+    transform: translateY(4%);
+    -webkit-transform: translateY(4%);
+    -moz-transform: translateY(4%);
+    -ms-transform: translateY(4%);
+    -o-transform: translateY(4%);
 }
 }
 
 
 @media (max-width: 321px) {
   .hero img {
-    transform: translateY(8%);
-    -webkit-transform: translateY(8%);
-    -moz-transform: translateY(8%);
-    -ms-transform: translateY(8%);
-    -o-transform: translateY(8%);
+    transform: translateY(4%);
+    -webkit-transform: translateY(4%);
+    -moz-transform: translateY(4%);
+    -ms-transform: translateY(4%);
+    -o-transform: translateY(4%);
 }
 }
 
