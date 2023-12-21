@@ -99,13 +99,3 @@ document.addEventListener('DOMContentLoaded', function () {
         element.setAttribute('data-aos-duration', '1000');
     });
 });
-
-const navEl = document.querySelector('.navbar');
-
-window.addEventListener('scroll', () => {
-    if (window.scrollY >= 200) {
-        navEl.classList.add('navbar-scrolled');
-    } else {
-        navEl.classList.remove('navbar-scrolled');
-    }
-});

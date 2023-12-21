@@ -90,17 +90,23 @@ h1 {
     -o-border-radius: 15px;
 }
 
+img {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 /*Navbar*/
 
 .navbar {
-  background-color: transparent;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.navbar-scrolled {
   background-color: white;
 }
 
+.navbar-brand img{
+  width: 60px;
+}
 
 .navbar-toggler {
   padding: 15px;
@@ -332,6 +338,7 @@ h1 {
 .portfolio h3,
 .project-hero h3,
 .details h3,
+.benefits H3,
 .challenges h3,
 .solution h3,
 .detail h3,
@@ -872,11 +879,6 @@ footer {
   background-color: var(--blue-dark);
 }
 
-.footer-bottom {
-  background-color: var(--purple-dark);
-}
-
-
 footer h5 {
   color: var(--white);
   font-weight: 700;
@@ -913,10 +915,6 @@ footer .nav li a i {
   justify-content: center;
 }
 
-footer .nav li {
-  margin: 0 8px;
-}
-
 footer .nav li a {
   width: 50px;
   height: 50px;
@@ -932,38 +930,6 @@ footer .nav li a {
 footer .nav li a:hover i {
   color: var(--green);
   /* Change the color of the `<i>` element on hover */
-}
-
-/* Assuming that .nav and .copyright are the classes for your navigation and copyright elements */
-
-.container-fluid.overflow-hidden .row.gy-4.gy-md-0 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.copyright,
-.nav {
-  margin: 0;
-}
-
-.nav {
-  list-style-type: none;
-  padding: 0;
-}
-
-.nav li {
-  display: inline-block;
-  margin-right: 15px; /* Adjust the spacing between nav items as needed */
-}
-
-.nav li:last-child {
-  margin-right: 0; /* Remove margin for the last item to avoid extra space */
-}
-
-.nav-link.link-white i {
-  color: var(--white);
-  font-size: 25px; /* Adjust the font size as needed */
 }
 
 /* Add this if needed for better responsiveness */
