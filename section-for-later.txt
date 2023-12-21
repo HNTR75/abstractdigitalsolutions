@@ -16,3 +16,107 @@
       </div>
   </div>
   </div>
+
+  <section class="cta p-5" style="background-image: url('assets/img/hero.png');">
+  <div class="container py-5">
+    <div class="row" data-aos="fade-down" data-aos-duration="500">
+      <div class="col-12 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
+        <h6 class="mb-3 text-white">JOIN OUR COMMUNITY</h6>
+        <h3 editable="inline" class="text-white mb-5">We are <span class="lc-block position-relative">trusted <img class="position-absolute top-100 start-0 mt-n1" src="https://cdn.livecanvas.com/media/underline/white_underline5.svg"></span> by over 5000+ clients. Join them now and grow your business.</h3>
+        <div class="main-btn lc-block"><a href="#" role="button">Get Started</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team py-3 py-md-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-md-center py-5">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-white">
+        <h5 class="mb-4 text-center">Our Team</h5>
+        <h3 class="mb-5 text-center">We're not just skilled, we're enthusiastic about your success.</h3>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-down">
+      <div class="col-md-6 col-lg-3 text-center py-4">
+          <div class="lc-block">
+            <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+          </div>
+          <div class="lc-block mt-2 py-2">
+              <h4 class="text-white">Comfort Khonje</h4>
+              <p>Founder & CEO</p>
+              <p>Graphic Designer</p>
+          </div>
+      </div>
+      <div class="col-md-6 col-lg-3 text-center py-4">
+        <div class="lc-block">
+          <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+        </div>
+        <div class="lc-block mt-2 py-2">
+            <h4 class="text-white">Victoria Gondwe</h4>
+            <p>Assistant Manager</p>
+            <p>Marketing Director</p>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 text-center py-4">
+      <div class="lc-block">
+        <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+      </div>
+      <div class="lc-block mt-2 py-2">
+          <h4 class="text-white">Ahmed Mpoya</h4>
+          <p>Creative Director</p>
+          <p>Web Developer</p>
+      </div>
+  </div>
+  <div class="col-md-6 col-lg-3 text-center py-4">
+    <div class="lc-block">
+      <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+    </div>
+    <div class="lc-block mt-2 py-2">
+        <h4 class="text-white">Doreen Mchekeni</h4>
+        <p>Secretary</p>
+        <p>Financial Controller</p>
+    </div>
+</div>
+<div class="col-md-6 col-lg-3 text-center py-4">
+  <div class="lc-block">
+    <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+  </div>
+  <div class="lc-block mt-2 py-2">
+      <h4 class="text-white">Pacharo Simukonda</h4>
+      <p>Head of Development</p>
+      <p>Product Designer</p>
+  </div>
+</div>
+<div class="col-md-6 col-lg-3 text-center py-4">
+  <div class="lc-block">
+    <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+  </div>
+  <div class="lc-block mt-2 py-2">
+      <h4 class="text-white">Ken Nyirenda</h4>
+      <p>Assistant Creative Director</p>
+      <p>Graphic Designer</p>
+  </div>
+</div>
+<div class="col-md-6 col-lg-3 text-center py-4">
+  <div class="lc-block">
+    <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+  </div>
+  <div class="lc-block mt-2 py-2">
+      <h4 class="text-white">Melinda Makhonde</h4>
+      <p>Sales Director</p>
+  </div>
+</div>
+<div class="col-md-6 col-lg-3 text-center py-4">
+  <div class="lc-block">
+    <img alt="" class="rounded-circle mb-3" src="https://images.unsplash.com/photo-1574698550747-3f839e813107?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" style="height:10vh" loading="lazy">
+  </div>
+  <div class="lc-block mt-2 py-2">
+      <h4 class="text-white">Logan Mtawali</h4>
+      <p>Graphic Designer</p>
+  </div>
+</div>
+  </div>
+  
+  </div>
+</section>
