@@ -16,31 +16,37 @@
     <body>
       <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><img class="light-version-logo" src="assets/img/icons/logo.png" alt="logo" style="width: 60px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="index.html"><img class="light-version-logo" src="assets/img/icons/logo.png" alt="logo" style="width: 80px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+                <div class="offcanvas-header">
+                  <img class="light-version-logo" src="assets/img/icons/logo.png" alt="logo" style="width: 60px;">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </nav>
+    </nav>
           <section class="services-hero py-3 py-md-5 py-xl-8">
             <div class="container">
               <div class="row align-items-center">
@@ -60,218 +66,212 @@
             </div>
           </section>
           <section class="services py-3 py-md-5 py-xl-8">
-<!-- Graphic Design Section -->
-<div id="graphic-design" class="">
-  <div class="container">
-    <div class="row gy-4 gy-xl-0">
-      <div class="col-12 col-md-10 col-lg-8 col-xl-7">
-        <h3 class="py-5">Graphic Design</h3>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row gy-4 gy-md-0 gx-xxl-5" data-aos="fade-down">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="fas fa-eye  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Logo <br>Design</h3>
-            <p class="mb-4 ">Creative logos tailored to represent your brand uniquely and effectively.</p>
-            <a href="service-detail.html" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="fas fa-image  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Poster <br>Design</h3>
-            <p class="mb-4 ">Eye-catching posters that convey your message vividly and persuasively.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 mb-5 d-flex flex-column">
-            <i class="fas fa-id-card  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Visual Identity Design</h3>
-            <p class="mb-4 ">Crafting cohesive visual identities that resonate with your target audience.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Add other Graphic Design services here -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="fas fa-address-card  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Business Card Design</h3>
-            <p class="mb-4 ">Impressive business cards that leave a lasting professional impression.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="fas fa-flag  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Banner <br>Design</h3>
-            <p class="mb-4 ">Captivating banners that attract attention and convey your message effectively.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="fas fa-paint-brush  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Brand Identity Design</h3>
-            <p class="mb-4 ">Building a brand identity that reflects your values and resonates authentically.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
+            <!-- Graphic Design Section -->
+            <div id="graphic-design">
+                <div class="container">
+                    <div class="row gy-4 gy-xl-0">
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+                            <h3 class="py-5">Graphic Design</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row gy-4 gy-md-0 gx-xxl-5" data-aos="fade-down">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="service-detail.html" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-eye  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Logo <br>Design</h3>
+                                        <p class="mb-4 ">Creative logos tailored to represent your brand uniquely and effectively.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-image  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Poster <br>Design</h3>
+                                        <p class="mb-4 ">Eye-catching posters that convey your message vividly and persuasively.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 mb-5 d-flex flex-column">
+                                        <i class="fas fa-id-card  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Visual Identity Design</h3>
+                                        <p class="mb-4 ">Crafting cohesive visual identities that resonate with your target audience.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Add other Graphic Design services here -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-address-card  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Business Card Design</h3>
+                                        <p class="mb-4 ">Impressive business cards that leave a lasting professional impression.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-flag  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Banner <br>Design</h3>
+                                        <p class="mb-4 ">Captivating banners that attract attention and convey your message effectively.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-paint-brush  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Brand Identity Design</h3>
+                                        <p class="mb-4 ">Building a brand identity that reflects your values and resonates authentically.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Software Development Section -->
+            <div id="software-development">
+                <div class="container">
+                    <div class="row gy-4 gy-xl-0">
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+                            <h3 class="py-5">Software Development</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row gy-4 gy-md-0 gx-xxl-5" data-aos="fade-right">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-globe  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Website <br>Development</h3>
+                                        <p class="mb-4 ">Responsive and visually appealing websites for an enhanced online presence.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-cogs  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">System <br>Development</h3>
+                                        <p class="mb-4 ">Building robust and scalable systems to meet your business needs.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-mobile-alt  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Mobile Application <br>Development</h3>
+                                        <p class="mb-4 ">Creating innovative and user-friendly mobile applications for various platforms.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Add other Software Development services here -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fas fa-car  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Automotive System <br>Development</h3>
+                                        <p class="mb-4 ">Innovative solutions for automotive systems to enhance performance and efficiency.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Digital Marketing Section -->
+            <div id="digital-marketing">
+                <div class="container">
+                    <div class="row gy-4 gy-xl-0">
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+                            <h3 class="py-5">Digital Marketing</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row gy-4 gy-md-0 gx-xxl-5" data-aos="fade-left">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="fab fa-facebook  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Social Media Marketing</h3>
+                                        <p class="mb-4 ">Strategic social media campaigns to boost your brand presence and engagement.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
+                                        <i class="far fa-file-alt  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Content Marketing</h3>
+                                        <p class="mb-4 ">Compelling content strategies to engage your audience and drive conversions.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#!" class="text-decoration-none">
+                                <div class="card d-flex h-100">
+                                    <div class="card-body border p-5 mx-auto mb-md-5 mb-5 d-flex flex-column">
+                                        <i class="fas fa-search  mb-4 fa-3x me-3"></i>
+                                        <h3 class="h2 mb-4">Search Engine Optimization</h3>
+                                        <p class="mb-4 ">Optimizing your online presence to rank higher in search engine results.</p>
+                                        <span class="fw-bold">Learn More</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Add other Digital Marketing services here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
           
-  
-  <!-- Software Development Section -->
-  <div id="software-development" class="">
-    <div class="container">
-      <div class="row gy-4 gy-xl-0">
-        <div class="col-12 col-md-10 col-lg-8 col-xl-7">
-          <h3 class="py-5">Software Development</h3>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row gy-4 gy-md-0 gx-xxl-5" data-aos="fade-right">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card d-flex h-100">
-            <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-              <i class="fas fa-globe  mb-4 fa-3x me-3"></i>
-              <h3 class="h2 mb-4">Website <br>Development</h3>
-              <p class="mb-4 ">Responsive and visually appealing websites for an enhanced online presence.</p>
-              <a href="#!" class="fw-bold text-decoration-none ">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card d-flex h-100">
-            <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-              <i class="fas fa-cogs  mb-4 fa-3x me-3"></i>
-              <h3 class="h2 mb-4">System <br>Development</h3>
-              <p class="mb-4 ">Building robust and scalable systems to meet your business needs.</p>
-              <a href="#!" class="fw-bold text-decoration-none ">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card d-flex h-100">
-            <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-              <i class="fas fa-mobile-alt  mb-4 fa-3x me-3"></i>
-              <h3 class="h2 mb-4">Mobile Application <br>Development</h3>
-              <p class="mb-4 ">Creating innovative and user-friendly mobile applications for various platforms.</p>
-              <a href="#!" class="fw-bold text-decoration-none ">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- Add other Software Development services here -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card d-flex h-100">
-            <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-              <i class="fas fa-car  mb-4 fa-3x me-3"></i>
-              <h3 class="h2 mb-4">Automotive System <br>Development</h3>
-              <p class="mb-4 ">Innovative solutions for automotive systems to enhance performance and efficiency.</p>
-              <a href="#!" class="fw-bold text-decoration-none ">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-  
-<!-- Digital Marketing Section -->
-<div id="digital-marketing" class="">
-  <div class="container">
-    <div class="row gy-4 gy-xl-0">
-      <div class="col-12 col-md-10 col-lg-8 col-xl-7">
-        <h3 class="py-5">Digital Marketing</h3>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row gy-4 gy-md-0 gx-xxl-5" data-aos="fade-left">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="fab fa-facebook  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Social Media Marketing</h3>
-            <p class="mb-4 ">Strategic social media campaigns to boost your brand presence and engagement.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 d-flex flex-column">
-            <i class="far fa-file-alt  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Content Marketing</h3>
-            <p class="mb-4 ">Compelling content strategies to engage your audience and drive conversions.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card d-flex h-100">
-          <div class="card-body border p-5 mx-auto mb-md-5 mb-5 d-flex flex-column">
-            <i class="fas fa-search  mb-4 fa-3x me-3"></i>
-            <h3 class="h2 mb-4">Search Engine Optimization</h3>
-            <p class="mb-4 ">Optimizing your online presence to rank higher in search engine results.</p>
-            <a href="#!" class="fw-bold text-decoration-none ">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Add other Digital Marketing services here -->
-    </div>
-  </div>
-</div>
-
-  
-  
-  </section>
   <footer class="footer">
     <section class="py-5">
       <div class="container overflow-hidden">

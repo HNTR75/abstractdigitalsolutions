@@ -99,3 +99,15 @@ document.addEventListener('DOMContentLoaded', function () {
         element.setAttribute('data-aos-duration', '1000');
     });
 });
+
+
+/*const spinnerWrapperEl = document.querySelector('.spinner-wrapper');
+
+window.addEventListener('load', () => {
+    spinnerWrapperEl.style.opacity = '0';
+
+    setTimeout(() => {
+        spinnerWrapperEl.style.display = 'none';
+    }, 500); // Adjust the timeout duration to your desired length
+});
+*/
